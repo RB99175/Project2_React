@@ -5,7 +5,7 @@
 
 # React Project Proposal Overview
 
-###Project Description
+### Project Description
 **Welcome to "Formula 1"**
 This web will render race details from 1950 till 2019 for all formula race along with the rounds and winners details.
 
@@ -20,8 +20,8 @@ This web will render race details from 1950 till 2019 for all formula race along
 `<Link>`[WireFrame2](httphttps://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
 
 
-###Key Milestone
-#####MVP:
+### Key Milestone
+##### MVP:
 User will see the homepage along with welcome home page 
 User can select the year between 1950-2019 from the drop down
 User can see the year wise formula 1 race details like:
@@ -37,7 +37,7 @@ User can navigate back to the home page
 Writing out components and its descriptions which will be helpful to the client.
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components.
 
-###Key Features:
+### Key Features:
 - Interactive website
 - Click event
 - Render drop down
@@ -49,17 +49,17 @@ Based on the initial logic defined in the previous sections try and breakdown th
 - Test using Jest
 
 
-###Additional Libraries
+### Additional Libraries
 - ReactStrap
 - React dependencies
 
  
-###Code Snipnet
+### Code Snipnet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description. Code snippet should not be greater than 10 lines of code.
 
 
-###Plan
-####Bronze:
+### Plan
+#### Bronze:
 Create proposal for creating final product for react App
 Create Componets and import necessary dependiences as requried 
 Create home page using HTML and CSS
@@ -69,14 +69,14 @@ Style the page using CSS /flex box
 Create back button 
 Create grids to render Year wise details
 
-####Silver:
+#### Silver:
 Use API key to render the data for 'year' in the dropdown
 Render year details, series, season, detail for winner on detail page
 Render data in grid using API 
 Link WIKI page for each winner 
 Test code using Jest or browser
 
-####Gold:
+#### Gold:
 - Test the project from other users
 - Fix bugs if seen
 - Using Bootstrap/Reactstrap will fine tune the project 
@@ -85,7 +85,7 @@ Test code using Jest or browser
 - Ready for presentation 
 
 
-###Stretch Goal:
+### Stretch Goal:
 - Render Winner details on home page year wise 
 - Write Readme with project details
 
