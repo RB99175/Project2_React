@@ -14,9 +14,9 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 [Third Party API](http://ergast.com/mrd/methods/seasons/ "Third Party API")
 
-[WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.png:// "WireFrame")
+[WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.png  "WireFrame")
 
-[WireFrame2](https://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
+[WireFrame2](https://github.com/RB99175/Project2_React/blob/master/WireFrame2.png "WireFrame2")
 
 
 ### Key Milestone
