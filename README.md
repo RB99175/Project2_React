@@ -18,6 +18,8 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 [WireFrame2](httphttps://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
 
+[Github Repo link](http://https://github.com/RB99175/Project2_React.git "Github Repo link")
+
 
 ### Key Milestone
 ##### MVP:
