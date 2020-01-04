@@ -12,6 +12,8 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 [Github Repo](https://github.com/RB99175/Project2_React "Github Repo")
 
+[Json Data](http://ergast.com/api/f1/current.json)
+
 [Third Party API](http://ergast.com/mrd/methods/seasons/ "Third Party API")
 
 [WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.png  "WireFrame")
