@@ -1,6 +1,6 @@
 ### Formula-1
 
- ![](ferrari-96052_1280.png) Project 2: React
+ ![](ferrari-96052_1280.png) 
 
 # React Project Proposal Overview
 
