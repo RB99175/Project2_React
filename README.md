@@ -1,14 +1,15 @@
-###Image
+### Image
+
 [![Formula 1 Race](US "Formula 1 Race")](http://https://github.com/RB99175/Project2_React/blob/master/ferrari-96052_1280.png "Formula 1 Race")
 
 
-#React Project Proposal Overview
+# React Project Proposal Overview
 
 ###Project Description
 **Welcome to "Formula 1"**
 This web will render race details from 1950 till 2019 for all formula race along with the rounds and winners details.
 
-###Project Links
+### Project Links
 
 `<link>` : [Github Repo](http://https://github.com/RB99175/Project2_React "Github Repo")
 
