@@ -12,11 +12,11 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 `<link>` : [Github Repo](http://https://github.com/RB99175/Project2_React "Github Repo")
 
-`<Link>` :[Third Party API](httphttp://ergast.com/api/f1/seasons:// "Third Party API")
+`<Link>` : [Third Party API](httphttp://ergast.com/api/f1/seasons:// "Third Party API")
 
-`<Link>`:[WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.pngp:// "WireFrame")
+`<Link>`: [WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.png:// "WireFrame")
 
-`<Link>`[WireFrame2](httphttps://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
+`<Link>`: [WireFrame2](httphttps://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
 
 
 ### Key Milestone
