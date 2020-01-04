@@ -10,15 +10,13 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 ### Project Links
 
-[Github Repo](http://https://github.com/RB99175/Project2_React "Github Repo")
+[Github Repo](https://github.com/RB99175/Project2_React "Github Repo")
 
 [Third Party API](http://ergast.com/mrd/methods/seasons/ "Third Party API")
 
 [WireFrame](https://github.com/RB99175/Project2_React/blob/master/WireFrame.png:// "WireFrame")
 
-[WireFrame2](httphttps://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
-
-[Github Repo link](http://https://github.com/RB99175/Project2_React.git "Github Repo link")
+[WireFrame2](https://github.com/RB99175/Project2_React/blob/master/WireFrame2.png:// "WireFrame2")
 
 
 ### Key Milestone
