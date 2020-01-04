@@ -1,6 +1,6 @@
 ### Image
 
-[![Formula 1 Race](US "Formula 1 Race")](http://https://github.com/RB99175/Project2_React/blob/master/ferrari-96052_1280.png "Formula 1 Race")
+[! [Formula 1 Race](US "Formula 1 Race")](http://https://github.com/RB99175/Project2_React/blob/master/ferrari-96052_1280.png "Formula 1 Race")
 
 
 # React Project Proposal Overview
