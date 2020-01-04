@@ -92,9 +92,9 @@ Test code using Jest or browser
 ### Time Frames
 |  Component |  Priority |  Estimated Time |  Time Invested | Actual Time  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Creating Proposal  |  H | 4Hrs | 5Hrs |  4Hrs |
+| Creating Proposal  |  H | 4Hrs | 5Hrs |  5Hrs |
 |   |   |   |   |   |
-|  Total | H | 4Hrs  | 5Hrs  |  4Hrs |
+|  Total | H | 4Hrs  | 5Hrs  |  5rs |
 
 
 
