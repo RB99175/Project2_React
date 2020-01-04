@@ -1,8 +1,6 @@
-### Image
+### Formula-1
 
-![](http://https://github.com/RB99175/Project2_React/blob/master/ferrari-96052_1280.png "Formula 1 Race")
-
-# ![](ferrari-96052_1280.png) Project 2: React
+ ![](ferrari-96052_1280.png) Project 2: React
 
 # React Project Proposal Overview
 
@@ -91,7 +89,7 @@ Test code using Jest or browser
 - Write Readme with project details
 
 
-###Time Frames
+### Time Frames
 |  Component |  Priority |  Estimated Time |  Time Invested | Actual Time  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Creating Proposal  |  H | 4Hrs | 5Hrs |  4Hrs |
