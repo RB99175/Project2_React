@@ -23,20 +23,20 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 ### Key Milestone
 ##### MVP:
-User will see the homepage along with welcome home page 
-User can select the year between 1950-2019 from the drop down
-User can see the year wise formula 1 race details like:
-- Season
-- Round
-- Race
-- Locality
-- Country
-- Wikipedia page for each winner 
-User can navigate back to the home page
+- User will see the homepage along with welcome home page 
+- User can select the year between 1950-2019 from the drop down
+- User can see the year wise formula 1 race details like:
+   - Season
+   - Round
+   - Race
+   - Locality
+   - Country
+   - Wikipedia page for each winner 
+- User can navigate back to the home page
 
 ##### Post-MVP:
-Writing out components and its descriptions which will be helpful to the client.
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components.
+- Writing out components and its descriptions which will be helpful to the client.
+- Based on the initial logic defined in the previous sections will breakdown the logic further into stateless/stateful components.
 
 ### Key Features:
 - Interactive website
@@ -61,21 +61,21 @@ Use this section to include a brief code snippet of functionality that you are p
 
 ### Plan
 #### Bronze:
-Create proposal for creating final product for react App
-Create Componets and import necessary dependiences as requried 
-Create home page using HTML and CSS
-Test using Jest or browser
-Create link to render detail page from home page
-Style the page using CSS /flex box
-Create back button 
-Create grids to render Year wise details
+- Create proposal for creating final product for react App
+- Create Componets and import necessary dependiences as requried 
+- Create home page using HTML and CSS
+- Test using Jest or browser
+- Create link to render detail page from home page
+- Style the page using CSS /flex box
+- Create back button 
+- Create grids to render Year wise details
 
 #### Silver:
-Use API key to render the data for 'year' in the dropdown
-Render year details, series, season, detail for winner on detail page
-Render data in grid using API 
-Link WIKI page for each winner 
-Test code using Jest or browser
+- Use API key to render the data for 'year' in the dropdown
+- Render year details, series, season, detail for winner on detail page
+- Render data in grid using API 
+- Link WIKI page for each winner 
+- Test code using Jest or browser
 
 #### Gold:
 - Test the project from other users
