@@ -103,6 +103,10 @@ Use this section to include a brief code snippet of functionality that you are p
 ### Issues and Resolutions
 
 ## (1)
+![](Error_1.png)
+- Received above error while setting the data in the set.state as an arry
+- Realised that adding curly braces inside the data resolved the issue as without curly braces it was reading from an object and with curly braces its reading from an arrary.
+
 
 
  
