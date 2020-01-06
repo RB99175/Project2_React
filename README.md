@@ -100,6 +100,10 @@ Use this section to include a brief code snippet of functionality that you are p
 
 
 
+### Issues and Resolutions
+
+## (1)
+
 
  
 
