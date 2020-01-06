@@ -3,27 +3,26 @@
 }
 
 .App-logo {
-  height: 20vmin;
-  width:250px;
+  height: 30vmin; 
+  width:150px; 
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
-  min-height:80px;
+  min-height:50px;
 }
 
 
 
 
 .dropdown {
+}
+
+.clickme {
+
 }
 
