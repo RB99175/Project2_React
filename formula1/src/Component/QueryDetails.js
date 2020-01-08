@@ -2,17 +2,28 @@ import React from "react";
 import "../App.css";
 
 //Adding the data from setstate(seasons) in yeardropdown button
-const QueryDetails = ({ seasons }) => {
+const QueryDetails = ({ seasons, results }) => {
   //console.log to fetch all seasons detials
-  console.log(seasons);
+  console.log(seasons, results);
 
   return (
-    <select>
-      {/* Using map function to call each item in a string and returing those in results */}
-      {seasons.map(seasonItem => (
-        <option value={seasonItem.seasons}>{seasonItem.season}</option>
-      ))}
-    </select>
+    <table class="response">
+      <tbody>
+        <tr>
+          <th>Query Details</th>
+        </tr>
+        <tr>
+          <th>Series</th>
+          <th>Season</th>
+          <th>Results</th>
+        </tr>
+        <tr>
+          <td>f1</td>
+          <td>2005</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+    </table>
   );
 };
 
