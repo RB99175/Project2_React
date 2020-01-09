@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* Created home page and Result page */}
+        {/* Loads components by route */}
         <Route exact={true} path="/" component={HomePage} />
-        <Route path="/Results" component={Results} />
+        <Route path="/Results/:id" component={Results} />
       </div>
     </BrowserRouter>
   );

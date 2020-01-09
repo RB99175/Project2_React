@@ -19,8 +19,8 @@ const QueryDetails = ({ seasons, results }) => {
         </tr>
         <tr>
           <td>f1</td>
-          <td>2005</td>
-          <td>19</td>
+          <td>{seasons}</td>
+          <td>{results}</td>
         </tr>
       </tbody>
     </table>

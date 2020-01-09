@@ -4,32 +4,41 @@ import YearDropDown from "../Component/YearDropDown";
 import Button from "../Component/Button";
 import formula1 from "../formula1.jpg";
 import image from "../ferrari.png";
-import {withRouter} from'react-router-dom';
+import { withRouter } from "react-router-dom";
 
 class HomePage extends Component {
   constructor(props) {
     super(props);
+    this.updateSeason = this.updateSeason.bind(this);
     this.state = {
-      seasons: []
-     
+      seasons: [],
+      selectedSeason: "1950"
     };
   }
-  //Fetching the api data
+  //Fetching the api data- drop down menu
   componentDidMount() {
     fetch("http://ergast.com/api/f1/seasons.json?limit=71")
       .then(response => response.json())
       .then(data => {
         console.log(data.MRData.SeasonTable.Seasons);
 
-        //Setting the api data in setstate in constructor
+        //Setting the api data in setstate for the drop down menu
         this.setState({ seasons: data.MRData.SeasonTable.Seasons });
         console.log(JSON.stringify(this.state.seasons));
       });
   }
-  // 
+  //
   handleClick() {
     console.log("Clicked");
-    this.props.history.push("/Results");
+    this.props.history.push(`/Results/${this.state.selectedSeason}`);
+  }
+//will call something gets selected in the drop down 
+//default if 1950,it will update the new value what ever is selected in the this.set
+  updateSeason(season) {
+    console.log(season);
+    this.setState({
+      selectedSeason: season
+    });
   }
 
   render() {
@@ -37,10 +46,10 @@ class HomePage extends Component {
       <div className="App">
         <header className="App-header">
           <img src={formula1} className="App-logo" alt="logo" />{" "}
+          <img src={image} className="App-logo" alt="logo" />{" "}
         </header>
 
         <p>
-           
           Formula One (also known as Formula 1 or F1) is the highest class of
           single-seater auto racing sanctioned by the Fédération Internationale
           de l'Automobile (FIA) and owned by the Formula One Group. The FIA
@@ -59,13 +68,21 @@ class HomePage extends Component {
           locations on purpose-built tracks, but several events take place on
           city streets.
         </p>
-
-        <YearDropDown seasons={this.state.seasons} />
+<div className="dropdown-menu-center ">
+  {/* passing the drop down data in the form of state */}
+        <YearDropDown seasons={this.state.seasons} handleUpdate={this.updateSeason}/>
         {/* passing the on click handle click prop */}
-        <Button name="Go" onclick={() =>{this.handleClick()}} />
+        </div>
+        <Button
+          name="Click here"
+          onclick={() => {
+            this.handleClick();
+          }}
+        />
+        
       </div>
     );
   }
 }
 
-export default withRouter (HomePage);
+export default withRouter(HomePage);

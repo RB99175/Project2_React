@@ -21,22 +21,31 @@
 }
 
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+table, th, td, tr {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.dropdown-menu-center {
+  /* left: 20%;  */
+  /* right: auto; */
+  /* text-align: center; */
+  transform: translate(900%, 0);
+  display: inline-block; 
 }
 
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: red;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rdbg(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+button {
+	background: grey;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	border-radius: 30px;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 600px;
+  margin-top: 30npm st0px;
 }
 
-.clickme {
+P {
+  font-family: cursive;
+  font-size: 110%;
 
 }
-
