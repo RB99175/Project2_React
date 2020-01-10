@@ -54,6 +54,22 @@ This web will render race details from 1950 till 2019 for all formula race along
 - ReactStrap
 - React dependencies
 
+### React Architecture
+```
+Index.js
+  +-- App.js
+   +-- Home.js
+   |   +-- Random Drink Image
+   |   +-- Random Drink Info
+   +-- NavBar.js
+   |   +-- Link to Home, About, Category
+   |   +-- Search Form
+   +-- Category.js
+   +-- Details.js
+   |   +-- Ingredients.js
+   +-- Footer.js
+   
+```
  
 ### Code Snipnet
 - I was successfully able to route and render multiple pages. This idea came to me when I looked at the API data first as what informtion I am getting and how I need to render it on my pages.
