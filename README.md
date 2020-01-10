@@ -56,20 +56,25 @@ This web will render race details from 1950 till 2019 for all formula race along
 
 ### React Architecture
 ```
-Index.js
-  +-- App.js
-   +-- Home.js
-   |   +-- Random Drink Image
-   |   +-- Random Drink Info
-   +-- NavBar.js
-   |   +-- Link to Home, About, Category
-   |   +-- Search Form
-   +-- Category.js
-   +-- Details.js
-   |   +-- Ingredients.js
-   +-- Footer.js
-   
+src
+  +-- Container
+   +-- HomePage.js
+   +-- Results.js
+  +-- Container
+   |   +-- Button.js
+   |   +-- QueryDetails.js
+   |   +-- RaceTable.js
+   |   +-- YearDropDown.js  
 ```
+ 
+ ### Components
+ | Components  | Description  |  
+| :------------ |:---------------:| 
+| Button.js      | Resuability function, passing click function | 
+| QueryDetails.js | Summary of selected year        |   
+| RaceTable.js | Details of Race for that year     |
+
+ 
  
 ### Code Snipnet
 - I was successfully able to route and render multiple pages. This idea came to me when I looked at the API data first as what informtion I am getting and how I need to render it on my pages.
@@ -81,6 +86,8 @@ Index.js
       </div>
     </BrowserRouter>
 ```
+
+
 ### Plan
 #### Bronze:
 - Create proposal for creating final product for react App
