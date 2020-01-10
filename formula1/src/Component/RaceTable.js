@@ -2,10 +2,8 @@ import React from "react";
 import "../App.css";
 
 const RaceTable = ({ races }) => {
-  console.log(races);
-
   return (
-    <table class="response">
+    <table className="body">
       <tbody>
         <tr>
           <th colspan="0">Race Table</th>
@@ -31,9 +29,9 @@ const RaceTable = ({ races }) => {
             <td>{raceItem.Circuit.circuitName}</td>
             <td>{raceItem.Circuit.Location.locality}</td>
             <td>{raceItem.Circuit.Location.country}</td>
-            <td><a href={raceItem.url}>Report</a></td>
-              
-            
+            <td>
+              <a href={raceItem.url}>Report</a>
+            </td>
           </tr>
         ))}
       </tbody>

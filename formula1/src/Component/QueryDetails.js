@@ -1,11 +1,7 @@
 import React from "react";
 import "../App.css";
 
-//Adding the data from setstate(seasons) in yeardropdown button
 const QueryDetails = ({ seasons, results }) => {
-  //console.log to fetch all seasons detials
-  console.log(seasons, results);
-
   return (
     <table class="response">
       <tbody>
