@@ -56,9 +56,15 @@ This web will render race details from 1950 till 2019 for all formula race along
 
  
 ### Code Snipnet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description. Code snippet should not be greater than 10 lines of code.
+- I was successfully able to route and render multiple pages. This idea came to me when I looked at the API data first as what informtion I am getting and how I need to render it on my pages.
 
-
+``` <BrowserRouter>
+      <div className="App">
+        <Route exact={true} path="/" component={HomePage} />
+        <Route path="/Results/:id" component={Results} />
+      </div>
+    </BrowserRouter>
+```
 ### Plan
 #### Bronze:
 - Create proposal for creating final product for react App
